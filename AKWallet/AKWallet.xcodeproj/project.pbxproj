@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0070C8492935F02FBD1E5F96 /* CredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29883C27D1E75662C7381028 /* CredentialStore.swift */; };
+		0AB3544BD02811FBC2FF3CEA /* WalletService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18180597C73A58EC5B8A7E56 /* WalletService.swift */; };
+		0D520DB3C63B566B5E06B289 /* AKSecurity in Frameworks */ = {isa = PBXBuildFile; productRef = 0B06E20287AA9674705B8DCD /* AKSecurity */; };
+		0F227922A5CEA66872989A8D /* AKWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92DDA86F5EBEB4D0710B046 /* AKWalletApp.swift */; };
+		233453AB7F736FF347B33D58 /* PresentationFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82FBF88D11CE7D0C919C218 /* PresentationFlow.swift */; };
+		37D881288613F5965938502D /* TrustSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C321779DAA310EF2E7DB4DBD /* TrustSettings.swift */; };
+		587603819C0AF355E048C28F /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC0682316CD34FAE37B292 /* WalletView.swift */; };
+		64F02F339BCBBC0254653B7D /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E637CB4E975C3AB43BB6C5EE /* RootView.swift */; };
+		668C3A758BF71B810394E020 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5A0CB28CCC28640FDB6CC /* ScanView.swift */; };
+		685A06F31C9408DD7C88B8F7 /* ProximityFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8076449274CD6212EF3AA77 /* ProximityFlow.swift */; };
+		7BDDD1C8EA139456DD67E43F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306218983B8F70E17A8CE45 /* SettingsView.swift */; };
+		8AA67170941E8F489F190ADE /* StoredCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D1455DFED2AE96B3272013 /* StoredCredential.swift */; };
+		909037708692889A001ECE38 /* HolderKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DCF49B59CB09419FDB2F2C /* HolderKeyManager.swift */; };
+		96CBAFD9A8B51FC070D14237 /* WebAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A48EF9DD5A2EB014A189FE /* WebAuthenticator.swift */; };
+		9E473D705695590C7D2B4338 /* IssuanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B84511EDC261C5406DDFEE /* IssuanceView.swift */; };
+		9E563F1A068B4D5F30D0E072 /* PresentationConsentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701BFD0E859D89BA757708A0 /* PresentationConsentView.swift */; };
+		AFCF953CCE18FE843E2A4D74 /* AKPresentation in Frameworks */ = {isa = PBXBuildFile; productRef = C37CB936F36446B7B6726E30 /* AKPresentation */; };
+		BF7BDD8C110D70E3FE71477B /* CredentialVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12BB9A155139847F6F5A84E /* CredentialVerifier.swift */; };
+		D4AB2C74C9EC19FBCA4A39C4 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A282E60EA03694FB2FA7230 /* Components.swift */; };
+		D6747BF5298CB486983D0B27 /* IssuanceFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11797ED991C275FC6873763 /* IssuanceFlow.swift */; };
+		E93122E1C0A565B6E5F18AFB /* ProximityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1D13B8FBAE0DCD38EA649F /* ProximityView.swift */; };
+		F0D1A2EB8C88D5EA14904820 /* AKOpenID4VCI in Frameworks */ = {isa = PBXBuildFile; productRef = 99138D0D9659BFC10BF0C5F3 /* AKOpenID4VCI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14A48EF9DD5A2EB014A189FE /* WebAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAuthenticator.swift; sourceTree = "<group>"; };
+		18180597C73A58EC5B8A7E56 /* WalletService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletService.swift; sourceTree = "<group>"; };
+		18FCCC42D929E60638A9C58A /* AKWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1438755E1EF2B85B78E3CF /* AKOpenID4VCI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AKOpenID4VCI; path = ../AKOpenID4VCI; sourceTree = SOURCE_ROOT; };
+		28DCF49B59CB09419FDB2F2C /* HolderKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolderKeyManager.swift; sourceTree = "<group>"; };
+		29883C27D1E75662C7381028 /* CredentialStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialStore.swift; sourceTree = "<group>"; };
+		3766575D7B7FE0FF1BB53EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		695DDEFE3CC4EF6D368E375A /* AKSecurity */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AKSecurity; path = ../AKSecurity/AKSecurity; sourceTree = SOURCE_ROOT; };
+		6C1D13B8FBAE0DCD38EA649F /* ProximityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityView.swift; sourceTree = "<group>"; };
+		701BFD0E859D89BA757708A0 /* PresentationConsentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationConsentView.swift; sourceTree = "<group>"; };
+		76E95664B9885D9298279A6C /* AKPresentation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AKPresentation; path = ../AKPresentation; sourceTree = SOURCE_ROOT; };
+		7BD5A0CB28CCC28640FDB6CC /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		8ECC0682316CD34FAE37B292 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		95D1455DFED2AE96B3272013 /* StoredCredential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredCredential.swift; sourceTree = "<group>"; };
+		9A282E60EA03694FB2FA7230 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		B306218983B8F70E17A8CE45 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B82FBF88D11CE7D0C919C218 /* PresentationFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationFlow.swift; sourceTree = "<group>"; };
+		B92DDA86F5EBEB4D0710B046 /* AKWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AKWalletApp.swift; sourceTree = "<group>"; };
+		C11797ED991C275FC6873763 /* IssuanceFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuanceFlow.swift; sourceTree = "<group>"; };
+		C321779DAA310EF2E7DB4DBD /* TrustSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrustSettings.swift; sourceTree = "<group>"; };
+		E12BB9A155139847F6F5A84E /* CredentialVerifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialVerifier.swift; sourceTree = "<group>"; };
+		E4B84511EDC261C5406DDFEE /* IssuanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuanceView.swift; sourceTree = "<group>"; };
+		E637CB4E975C3AB43BB6C5EE /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		E8076449274CD6212EF3AA77 /* ProximityFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityFlow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD191C793F740709B6DC70A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D520DB3C63B566B5E06B289 /* AKSecurity in Frameworks */,
+				F0D1A2EB8C88D5EA14904820 /* AKOpenID4VCI in Frameworks */,
+				AFCF953CCE18FE843E2A4D74 /* AKPresentation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AABC2226E84CEF7D76F80BF /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				29883C27D1E75662C7381028 /* CredentialStore.swift */,
+				28DCF49B59CB09419FDB2F2C /* HolderKeyManager.swift */,
+				95D1455DFED2AE96B3272013 /* StoredCredential.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		20BB6E131F439AF6E9E38511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FCCC42D929E60638A9C58A /* AKWallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22DB49ECD73B9FF0EF5852C5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E12BB9A155139847F6F5A84E /* CredentialVerifier.swift */,
+				C321779DAA310EF2E7DB4DBD /* TrustSettings.swift */,
+				18180597C73A58EC5B8A7E56 /* WalletService.swift */,
+				14A48EF9DD5A2EB014A189FE /* WebAuthenticator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2591CCCD63C36F54E17F5C71 = {
+			isa = PBXGroup;
+			children = (
+				72B5DA25A2FB4DD0555EE554 /* AKWallet */,
+				8ADCB5C0232268B5FAF7DDB3 /* Packages */,
+				20BB6E131F439AF6E9E38511 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2656AE83E1017655AAE848BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A282E60EA03694FB2FA7230 /* Components.swift */,
+				E4B84511EDC261C5406DDFEE /* IssuanceView.swift */,
+				701BFD0E859D89BA757708A0 /* PresentationConsentView.swift */,
+				6C1D13B8FBAE0DCD38EA649F /* ProximityView.swift */,
+				E637CB4E975C3AB43BB6C5EE /* RootView.swift */,
+				7BD5A0CB28CCC28640FDB6CC /* ScanView.swift */,
+				B306218983B8F70E17A8CE45 /* SettingsView.swift */,
+				8ECC0682316CD34FAE37B292 /* WalletView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32686F9041FE077E087F16A5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B92DDA86F5EBEB4D0710B046 /* AKWalletApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		72B5DA25A2FB4DD0555EE554 /* AKWallet */ = {
+			isa = PBXGroup;
+			children = (
+				3766575D7B7FE0FF1BB53EC3 /* Info.plist */,
+				32686F9041FE077E087F16A5 /* App */,
+				820930AFD3AAB59DAD2099AF /* Flows */,
+				22DB49ECD73B9FF0EF5852C5 /* Services */,
+				1AABC2226E84CEF7D76F80BF /* Storage */,
+				2656AE83E1017655AAE848BC /* Views */,
+			);
+			path = AKWallet;
+			sourceTree = "<group>";
+		};
+		820930AFD3AAB59DAD2099AF /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				C11797ED991C275FC6873763 /* IssuanceFlow.swift */,
+				B82FBF88D11CE7D0C919C218 /* PresentationFlow.swift */,
+				E8076449274CD6212EF3AA77 /* ProximityFlow.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		8ADCB5C0232268B5FAF7DDB3 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				1B1438755E1EF2B85B78E3CF /* AKOpenID4VCI */,
+				76E95664B9885D9298279A6C /* AKPresentation */,
+				695DDEFE3CC4EF6D368E375A /* AKSecurity */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D203F2C0A50BBE5DAA62AFD /* AKWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA48C15994603E4F88352459 /* Build configuration list for PBXNativeTarget "AKWallet" */;
+			buildPhases = (
+				F5256BEA6E277B428E6732B5 /* Sources */,
+				CD191C793F740709B6DC70A0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKWallet;
+			packageProductDependencies = (
+				0B06E20287AA9674705B8DCD /* AKSecurity */,
+				99138D0D9659BFC10BF0C5F3 /* AKOpenID4VCI */,
+				C37CB936F36446B7B6726E30 /* AKPresentation */,
+			);
+			productName = AKWallet;
+			productReference = 18FCCC42D929E60638A9C58A /* AKWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5363BB53A6EF07047CD3824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9D203F2C0A50BBE5DAA62AFD = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EAA28BB52F5E3FE172642BD3 /* Build configuration list for PBXProject "AKWallet" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2591CCCD63C36F54E17F5C71;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				072A5DB9064EB6CFA9A53576 /* XCLocalSwiftPackageReference "../AKOpenID4VCI" */,
+				CFA7841D945DE430EBF8947B /* XCLocalSwiftPackageReference "../AKPresentation" */,
+				F6A301EC78FCA49527CFC77A /* XCLocalSwiftPackageReference "../AKSecurity/AKSecurity" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 20BB6E131F439AF6E9E38511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D203F2C0A50BBE5DAA62AFD /* AKWallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5256BEA6E277B428E6732B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F227922A5CEA66872989A8D /* AKWalletApp.swift in Sources */,
+				D4AB2C74C9EC19FBCA4A39C4 /* Components.swift in Sources */,
+				0070C8492935F02FBD1E5F96 /* CredentialStore.swift in Sources */,
+				BF7BDD8C110D70E3FE71477B /* CredentialVerifier.swift in Sources */,
+				909037708692889A001ECE38 /* HolderKeyManager.swift in Sources */,
+				D6747BF5298CB486983D0B27 /* IssuanceFlow.swift in Sources */,
+				9E473D705695590C7D2B4338 /* IssuanceView.swift in Sources */,
+				9E563F1A068B4D5F30D0E072 /* PresentationConsentView.swift in Sources */,
+				233453AB7F736FF347B33D58 /* PresentationFlow.swift in Sources */,
+				685A06F31C9408DD7C88B8F7 /* ProximityFlow.swift in Sources */,
+				E93122E1C0A565B6E5F18AFB /* ProximityView.swift in Sources */,
+				64F02F339BCBBC0254653B7D /* RootView.swift in Sources */,
+				668C3A758BF71B810394E020 /* ScanView.swift in Sources */,
+				7BDDD1C8EA139456DD67E43F /* SettingsView.swift in Sources */,
+				8AA67170941E8F489F190ADE /* StoredCredential.swift in Sources */,
+				37D881288613F5965938502D /* TrustSettings.swift in Sources */,
+				0AB3544BD02811FBC2FF3CEA /* WalletService.swift in Sources */,
+				587603819C0AF355E048C28F /* WalletView.swift in Sources */,
+				96CBAFD9A8B51FC070D14237 /* WebAuthenticator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0C393B8D30E1F8E4A6A15948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		367B9C8A36462DA26C5FCFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9407852DE3BE5D231BB267C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AKWallet/AKWallet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = CRF3M8GPK7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AKWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toppansecurity.akwallet;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9945F73BF262B2EAB1F0C90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AKWallet/AKWallet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = CRF3M8GPK7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AKWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toppansecurity.akwallet;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA48C15994603E4F88352459 /* Build configuration list for PBXNativeTarget "AKWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9945F73BF262B2EAB1F0C90E /* Debug */,
+				9407852DE3BE5D231BB267C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EAA28BB52F5E3FE172642BD3 /* Build configuration list for PBXProject "AKWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367B9C8A36462DA26C5FCFC3 /* Debug */,
+				0C393B8D30E1F8E4A6A15948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		072A5DB9064EB6CFA9A53576 /* XCLocalSwiftPackageReference "../AKOpenID4VCI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../AKOpenID4VCI;
+		};
+		CFA7841D945DE430EBF8947B /* XCLocalSwiftPackageReference "../AKPresentation" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../AKPresentation;
+		};
+		F6A301EC78FCA49527CFC77A /* XCLocalSwiftPackageReference "../AKSecurity/AKSecurity" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../AKSecurity/AKSecurity;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B06E20287AA9674705B8DCD /* AKSecurity */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AKSecurity;
+		};
+		99138D0D9659BFC10BF0C5F3 /* AKOpenID4VCI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AKOpenID4VCI;
+		};
+		C37CB936F36446B7B6726E30 /* AKPresentation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AKPresentation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D5363BB53A6EF07047CD3824 /* Project object */;
+}
